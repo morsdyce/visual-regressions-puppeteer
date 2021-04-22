@@ -1,0 +1,9 @@
+{
+  "name": "fe-ui-core-visual-regressions",
+  "version": "1.0.0",
+  "description": "base image for capturing images from storybook for visual regression tests",
+  "main": "index.js",
+  "scripts": {
+    "build": "docker build -t fe-ui-core-visual-regressions ."
+  }
+}
