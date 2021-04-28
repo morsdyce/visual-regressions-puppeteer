@@ -15,5 +15,3 @@ RUN apt-get -qqy update && \
 RUN mkdir -p /opt/integration
 
 RUN npm i -g storycap http-server
-
-ENTRYPOINT [ "storycap", "--serverCmd", "http-server /opt/integration/storybook-build -p 9001", "--outDir", "/opt/integration/__screenshots__", "http://localhost:9001"]
